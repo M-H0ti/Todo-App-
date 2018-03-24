@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App-Js</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="icon.png" />
+</head>
+<body>
+    <div class="main">
+
+        <h1>Todo App</h1>
+
+        <div class="div2">
+
+        <input type="text" id="demo" name="Todo List" placeholder="Enter Your Todo" />
+
+        <input type="button" value="Add" id=""  onclick="add()"/>
+
+        <input type="button" name="" id="demo2" value="Clear All" onclick="clearAll()"/>
+
+        <ol id="list">
+
+        </ol>
+
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBJrJ8smISXpZ66KWKUK1uvu-Nn2NcpNwQ",
+    authDomain: "todo-list-app-4f0d4.firebaseapp.com",
+    databaseURL: "https://todo-list-app-4f0d4.firebaseio.com",
+    projectId: "todo-list-app-4f0d4",
+    storageBucket: "",
+    messagingSenderId: "422291581821"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+</html>

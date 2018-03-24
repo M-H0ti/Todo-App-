@@ -1,0 +1,23 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: darkslategrey;
+}
+.div2{
+    
+    margin: 25px auto 25px auto;
+    width:  300px;
+    height: 400px;
+    
+}
+
+.main{
+    border: 5px solid black;
+    width: 500px;
+    margin: 40px auto 0px auto ;
+    background-color: darkgray;
+}
+
+body{   
+    background-color: white;
+}
